@@ -1,6 +1,6 @@
 Name:           maven-plugin-testing
 Version:        2.1
-Release:        10%{?dist}
+Release:        11%{?dist}
 Summary:        Maven Plugin Testing
 License:        ASL 2.0
 URL:            http://maven.apache.org/plugin-testing/
@@ -75,6 +75,9 @@ Framework to test Maven Plugins with Easymock objects.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.1-11
+- Mass rebuild 2013-12-27
+
 * Tue Oct 08 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 2.1-10
 - Remove not needed workaround for 1002873 
 - Resolves: rhbz#1002873
